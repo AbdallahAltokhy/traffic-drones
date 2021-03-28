@@ -1,0 +1,120 @@
+.container {
+	padding: 30px;
+	background-color: #f6f9fc;
+	font-family: 'Inter', sans-serif;
+	font-size: 0.9rem;
+}
+
+.drone-details {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	width: 90%;
+}
+
+.selected-drone-name {
+	color: #6308f7;
+	margin: 14px 14px 14px 0;
+}
+
+.selected-drone-img {
+	width: 10%;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin: auto;
+	width: 90%;
+	table-layout: fixed;
+}
+
+table tr {
+	border: 1px solid #ddd;
+	background-color: white;
+	padding: 0.35em;
+}
+table tr:hover {
+	background-color: #f5f7ff;
+}
+
+table th,
+table td {
+	padding: 0.685em;
+	text-align: left;
+}
+
+table th {
+	color: gray;
+	font-size: 0.85em;
+	letter-spacing: 0.1em;
+}
+
+.LIGHT,
+.MODERATE,
+.HEAVY {
+	font-size: 0.85rem;
+	border-radius: 6px;
+	padding: 2% 4%;
+}
+
+.LIGHT {
+	border: 1px solid #9de09d;
+	color: #3cc13b;
+	background-color: #ebf9eb;
+}
+
+.MODERATE {
+	border: 1px solid #f9dd8d;
+	color: #b68c15;
+	background-color: #fef8e8;
+}
+
+.HEAVY {
+	border: 1px solid #f89b9b;
+	color: #f03738;
+	background-color: #fdebeb;
+}
+
+@media screen and (max-width: 600px) {
+	table {
+		border: 0;
+	}
+
+	table thead {
+		border: none;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+
+	table tr {
+		border-bottom: 3px solid #ddd;
+		display: block;
+		margin-bottom: 0.625em;
+	}
+
+	table td {
+		border-bottom: 1px solid #ddd;
+		display: block;
+		font-size: 0.8em;
+		text-align: right;
+	}
+
+	table td::before {
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	table td:last-child {
+		border-bottom: 0;
+	}
+}

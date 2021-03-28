@@ -1,0 +1,48 @@
+.card {
+	background-color: white;
+	border: 2px solid #e7e7e7;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-img {
+	width: 100%;
+}
+
+.drone-data {
+	display: inline-block;
+	width: 40%;
+	padding-left: 1.5rem;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: gray;
+	line-height: 0;
+}
+
+.drone-detail {
+	width: 50%;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.drone-name {
+	color: #6308f7;
+}
+
+.drone-btn {
+	display: block;
+	width: 85%;
+	color: #6308f7;
+	border: 2px solid #6308f7;
+	border-radius: 5px;
+	margin: 8px auto 6% auto;
+	padding: 5% 4%;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+
+.drone-btn:hover {
+	color: white;
+	background-color: #6308f7;
+	box-shadow: 2px 2px 2px 2px gray;
+}
