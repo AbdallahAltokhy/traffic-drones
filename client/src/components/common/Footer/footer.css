@@ -1,7 +1,7 @@
 .footer-content {
 	background-color: white;
 	display: flex;
-	margin: 20px auto;
+	margin: 20px auto 0 auto;
 	height: 200px;
 }
 
@@ -59,6 +59,7 @@
 }
 
 .copyright {
+	background-color: white;
 	padding-top: 1rem;
 	padding-bottom: 0.375rem;
 	text-align: center;
@@ -66,4 +67,21 @@
 
 .copyright .p-small {
 	color: gray;
+}
+
+@media screen and (max-width: 620px) {
+	.footer-content {
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+	}
+	.footer-col-first {
+		flex-direction: column;
+		margin: auto;
+		border: 0;
+	}
+	.footer-txt {
+		flex: 2;
+		text-align: center;
+	}
 }
