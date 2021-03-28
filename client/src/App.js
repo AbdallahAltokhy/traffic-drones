@@ -5,10 +5,10 @@ import {
   Route,
 } from "react-router-dom";
 import './app.css';
-import DronesList from './components/DronesList/DronesList';
-import DroneReport from './components/DroneReport/DroneReport';
 import getDronesList from './services/dronesService';
 import reportByDrone from './services/reportsService';
+import DronesList from './components/DronesList/DronesList';
+import DroneReport from './components/DroneReport/DroneReport';
 import Nav from './components/common/Nav/Nav';
 import Footer from './components/common/Footer/Footer';
 

@@ -23,19 +23,11 @@ const DroneReport = ({ reports, drone }) => {
 				<tbody>
 					{reports.map((report) => (
 						<tr key={report.id}>
-							<td scope="row" data-label="Time">
-								{moment(report.time).format('LT')}
-							</td>
-							<td scope="row" data-label="Speed">
-								{report.speed}
-							</td>
-							<td scope="row" data-label="Latitude">
-								{report.latitude}
-							</td>
-							<td scope="row" data-label="Longitude">
-								{report.longitud}
-							</td>
-							<td scope="row" data-label="Traffic">
+							<td data-label="Time">{moment(report.time).format('LT')}</td>
+							<td data-label="Speed">{report.speed}</td>
+							<td data-label="Latitude">{report.latitude}</td>
+							<td data-label="Longitude">{report.longitud}</td>
+							<td data-label="Traffic">
 								<span className={report.traffic_conditions}>
 									{report.traffic_conditions}
 								</span>

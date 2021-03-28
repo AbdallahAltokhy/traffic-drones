@@ -116,4 +116,9 @@ table th {
 	table td:last-child {
 		border-bottom: 0;
 	}
+
+	.selected-drone-img {
+		width: 25%;
+		margin-bottom: 5px;
+	}
 }
