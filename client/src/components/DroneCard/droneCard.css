@@ -1,4 +1,6 @@
 .card {
+	font-family: 'Inter', sans-serif;
+	font-size: 0.9rem;
 	background-color: white;
 	border: 2px solid #e7e7e7;
 	border-radius: 10px;

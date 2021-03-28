@@ -1,0 +1,10 @@
+.navBar {
+	background-color: white;
+	height: 50px;
+	padding-left: 4%;
+}
+
+.nav-header {
+	margin: 0;
+	padding: 8px 0;
+}
