@@ -4,7 +4,9 @@
 
 1. clone the repo
 
-   `git clone https://github.com/AbdallahAltokhy/traffic-drones.git`
+   `git clone https://github.com/AbdallahAltokhy/traffic-drones.git` 
+   `cd  traffic-drones` 
+   
 
 2. From the project root file, go to the client folder and install dependencies
 
